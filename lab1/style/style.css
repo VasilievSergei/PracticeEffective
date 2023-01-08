@@ -1,0 +1,19 @@
+@import url(./normalize.css);
+@import url(./layout.css);
+@import url(./main.css);
+@import url(./media.css);
+
+/* fonts */
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}

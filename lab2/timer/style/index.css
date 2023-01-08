@@ -1,0 +1,16 @@
+@import url("./style.css");
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}

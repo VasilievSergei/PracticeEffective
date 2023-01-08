@@ -1,0 +1,29 @@
+@import 'src/styles';
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .search_input {
+    width: 100%;
+    margin-right: 100px;
+    font-family: inherit;
+  }
+
+  .search_button {
+    width: 150px;
+    padding: 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    color: $color-white;
+    background-color: $color-orange;
+    font-size: inherit;
+    font-family: inherit;
+  }
+}

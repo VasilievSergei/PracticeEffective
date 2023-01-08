@@ -1,0 +1,24 @@
+:root {
+
+    /* color */
+    --gray-color: #2d3436;
+    --light-gray-color:#c2c2c2;
+    --white-color: white;
+    --light-green-color: rgba(85, 239, 196, 1);
+    --green: #00b894;
+    --yellow: #fdcb6e;
+    --light-yellow: #ffeaa7;
+    --blue: #0984e3;
+    --purple: #a29bfe;
+    --dark-purple: #6c5ce7;
+    --pink: #e84393;
+    --red: #ff7675;
+    --black: black;
+    --input-background:rgba(194, 194, 194, 0.24);
+
+    /* shadow */
+    --header-shadow: rgba(38, 50, 56, 0.08);
+    --grid-button-shadow1:rgba(38, 50, 56, 0.1);
+    --grid-button-shadow2:rgba(38, 50, 56, 0.2);
+    --price-card-shadow:rgba(38, 50, 56, 0.08);
+}

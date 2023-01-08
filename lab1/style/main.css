@@ -1,0 +1,361 @@
+/* -------- 
+    Common
+   -------- 
+*/
+@import url("./variables.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: var(--gray-color);
+  font-size: 18px;
+}
+
+a {
+  color: var(--gray-color);
+  text-decoration: none;
+}
+
+a:active {
+  color: inherit;
+}
+
+h1 {
+  font-size: 5.5em;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 2.7em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.1em;
+}
+
+/* ------------
+    header 
+   ------------
+*/
+header {
+  background-color: var(--white-color);
+  box-shadow: 0px 2px 4px 1px var(--header-shadow);
+}
+
+.header-menu {
+  background-color: var(--white-color);
+  border: none;
+  margin-right: 1em;
+}
+
+.sign-button {
+  min-width: 170px;
+  min-height: 64px;
+
+  border-radius: 999px;
+  border: none;
+
+  font-size: 1.5em;
+  background-color: var(--gray-color);
+}
+
+li {
+  list-style: none;
+}
+
+/* -------
+    main
+   -------
+*/
+
+/*  --------------
+      main title
+    --------------  
+*/
+
+.text-with-white-shadow {
+  text-shadow: 0 4px 0 var(--white-color);
+}
+
+.text-circle-shadow {
+  background-color: var(--light-green-color);
+  border-radius: 999px;
+}
+
+/* --------------- 
+      main grid
+   ---------------
+*/
+.green-box {
+  background-color: var(--green);
+}
+
+.yellow-box {
+  background-color: var(--yellow);
+}
+
+.yellow-box p {
+  text-align: center;
+}
+
+.purple-box {
+  background-color: var(--purple);
+}
+
+.light-blue-box {
+  background-color: var(--blue);
+}
+
+.pink-box {
+  background-color: var(--pink);
+}
+
+.dark-purple-box {
+  background-color: var(--dark-purple);
+}
+
+.red-box {
+  background-color: var(--red);
+}
+
+.button-grid {
+  border: none;
+  border-radius: 999px;
+
+  color: var(--dark-purple);
+  background-color: var(--white-color);
+  font-size: 1.8em;
+
+  box-shadow: 0px 8px 24px var(--grid-button-shadow1),
+    0px 16px 32px var(--grid-button-shadow2);
+}
+
+/* -------------
+    price cards
+   -------------
+*/
+
+.text-yellow-circle-shadow {
+  background-color: var(--yellow);
+  border-radius: 999px;
+}
+
+.price-card {
+  border-radius: 16px;
+}
+
+.price-card ul {
+  list-style: none;
+}
+
+.purple-border {
+  padding: 8px 16px;
+
+  border: 1px solid var(--dark-purple);
+  border-radius: 999px;
+}
+
+.background-circle {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.background-gray {
+  background-color: var(--light-gray-color);
+}
+
+.background-yellow {
+  background-color: var(--yellow);
+}
+
+.background-light-green {
+  background-color: var(--text-ellipse-color);
+}
+
+.price-card-shadow {
+  background-color: white;
+  box-shadow: 0px 12px 8px 0px var(--price-card-shadow),
+    0px 16px 16px 8px #26323814;
+}
+
+.thin-border-gray {
+  border: 1px solid var(--light-gray-color);
+  background-color: var(--white-color);
+}
+
+.price-card button {
+  border-radius: 16px;
+}
+
+.purple-button {
+  background-color: var(--dark-purple);
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* ------
+    info
+   ------
+*/
+
+.background-pink {
+  background-color: var(--pink);
+}
+
+.background-blue {
+  background-color: var(--blue);
+}
+
+.background-green {
+  background-color: var(--green);
+}
+
+.background-purple {
+  background-color: var(--dark-purple);
+}
+
+.info-card button {
+  border-radius: 16px;
+}
+
+/* ---------
+    foooter
+   --------- 
+ */
+
+.grid-cell-icon img:hover {
+  background-color: var(--light-yellow);
+  border-radius: 50%;
+}
+
+.grid-cell-footer-info a {
+  color: var(--black);
+}
+
+.grid-cell-footer-info a:hover {
+  text-decoration: underline;
+}
+
+input,
+textarea {
+  outline: none;
+  border-radius: 16px;
+  background-color: var(--input-background);
+  padding: 8px 16px;
+
+  font-size: 18px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid var(--dark-purple);
+}
+
+input::placeholder {
+  color: #2d3436;
+}
+
+.input-message::placeholder {
+  color: var(--dark-purple);
+}
+
+.input-name {
+  border: none;
+  background-image: url("../assets/image/icon-user.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.input-mail {
+  border: none;
+  background-image: url("../assets/image/icon-mail.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.input-message {
+  border: 1px;
+  background-image: url("../assets/image/icon-edit.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+footer button {
+  border-radius: 16px;
+  background-color: var(--dark-purple);
+  border: none;
+  font-size: 1.5em;
+}
+
+/* -------------
+      text 
+   -------------
+*/
+.text-line-height {
+  line-height: 2em;
+}
+
+.text-upper-and-letter-space {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 0.8em;
+}
+
+.text-bold-white {
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-bold-white {
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-color-purple {
+  color: var(--dark-purple);
+}
+
+.text-color-bold-purple {
+  color: var(--dark-purple);
+  font-weight: bold;
+}
+
+.text-color-pink {
+  color: var(--pink);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-gray {
+  color: var(--light-gray-color);
+}

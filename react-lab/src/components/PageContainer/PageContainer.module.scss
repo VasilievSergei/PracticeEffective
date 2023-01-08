@@ -1,0 +1,24 @@
+@import 'src/styles';
+
+.wrapper_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+
+.main_content {
+  max-width: 1240px;
+  min-width: 1240px;
+  margin-top: 30px;
+
+  .cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,280 @@
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header-container {
+    max-width: 900px;
+
+  }
+
+  .main-container {
+    max-width: 900px;
+  }
+
+  .grid-footer-container {
+    max-width: 900px;
+  }
+
+  .sign-button {
+    min-width: 130px;
+    min-height: 55px;
+  } 
+
+  .grid-container {
+    gap: 15px;
+  }
+
+  .left-text-grid {
+    display: none;
+  }
+  .green-box h3 {
+    display: none;
+  }
+  .yellow-box p {
+    display: none;
+  }
+
+  .rigth-text-grid {
+    display: none;
+  }
+
+  .pricing h2,
+  .pricing h4 {
+    text-align: center;
+  }
+
+
+  .price-cards {
+    flex-direction: column;
+  }
+
+  .price-card {
+
+    padding: 16px;
+    
+  }
+
+  .background-wiggle-image {
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .header-container {
+    width: 90%;
+  }
+
+  .info-container {
+    width: 90%;
+  }
+
+  .grid-footer-container {
+    width: 90%;
+  
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header-menu {
+    display: block;
+  }
+
+  .header-container nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    padding: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .header-container:hover nav ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  nav li {
+    margin-top: 16px;
+  }
+
+  nav ul:first-child {
+    margin-top: 0;
+  }
+
+  .point {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-rows: 1fr 2fr 2fr 1.5fr 1fr 2fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.8fr;
+    gap: 15px;
+  }
+
+  .green-box {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rigth-text-grid {
+    display: none;
+  }
+
+  .purple-box {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+  }
+
+  .light-blue-box {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .yellow-box {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .button-grid {
+    grid-column: 4 / span 2;
+    grid-row: 5;
+    border-radius: 16px;
+    width: 90%;
+  }
+
+  .pink-box {
+    grid-column: 2 / span 2;
+
+    grid-row: 5 / span 2;
+  }
+
+  .dark-purple-box {
+    grid-column: 4 / span 2;
+    grid-row: 3 / span 2;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .red-box {
+    grid-column: 1;
+    grid-row: 4;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .info-container {
+    margin-top: 100px;
+  }
+
+  .grid-info-cards {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .grid-cell-email,
+  .grid-cell-input-section {
+    padding-left: 0;
+  }
+
+  .icon-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .grid-cell-email h6 {
+    display: none;
+  }
+  .grid-cell-email h4 {
+    text-align: center;
+  }
+  .grid-cell-icon h6 {
+    text-align: center;
+  }
+
+  .support-card {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .sale-card {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .components-card {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .swap-card {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .grid-footer-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 1fr;
+    margin-bottom: 70px;
+  }
+
+  .grid-cell-footer-info {
+    display: none;
+  }
+
+  .grid-cell-input {
+    grid-template-rows: 1fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr;
+  }
+
+  .input-name {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .input-mail {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .input-message {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .grid-cell-input button {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  footer {
+    background-size: 100% 6%;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+
+  .sign-button {
+    min-width: 100px;
+    min-height: 40px;
+  } 
+
+  .button-grid {
+    font-size: 1.4em;
+  }
+
+}

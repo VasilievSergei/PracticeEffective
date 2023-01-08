@@ -1,0 +1,45 @@
+@import './variable.scss';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  font-size: 18px;
+  font-family: 'Exo2', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: bold;
+  color: $color-white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-white;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@font-face {
+  font-family: 'Exo2';
+  src: local('Exo2'),
+    url('src/assets/fonts/Exo2-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
